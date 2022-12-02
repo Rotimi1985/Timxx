@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties">
+    <sys_properties action="INSERT_OR_UPDATE">
+        <choices/>
+        <description>property lookup</description>
+        <ignore_cache>true</ignore_cache>
+        <is_private>false</is_private>
+        <name>x_cdltd_loaner_req.property loaner lookup</name>
+        <read_roles>x_cdltd_loaner_req.loaner_request_user</read_roles>
+        <suffix>property loaner lookup</suffix>
+        <sys_class_name>sys_properties</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2022-12-02 16:28:19</sys_created_on>
+        <sys_id>dc52b895cc2f59107f4443da529421b3</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_cdltd_loaner_req.property loaner lookup</sys_name>
+        <sys_package display_value="Loaner Request" source="x_cdltd_loaner_req">d634751bcc9b91107f4443da529421b7</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Loaner Request">d634751bcc9b91107f4443da529421b7</sys_scope>
+        <sys_update_name>sys_properties_dc52b895cc2f59107f4443da529421b3</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2022-12-02 16:28:19</sys_updated_on>
+        <type>integer</type>
+        <value>12</value>
+        <write_roles>x_cdltd_loaner_req.loaner_request_user</write_roles>
+    </sys_properties>
+    <sys_translated_text action="delete_multiple" query="documentkey=dc52b895cc2f59107f4443da529421b3"/>
+</record_update>
