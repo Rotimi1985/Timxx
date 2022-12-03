@@ -35,7 +35,8 @@
         <item_table/>
         <mandatory>false</mandatory>
         <message/>
-        <message_html><![CDATA[<p><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;"><strong>Dear ${request_for},</strong></span></p>
+        <message_html><![CDATA[<p><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;"><strong>${mail_script:appstore_apvendorpayment_sap_call}</strong></span></p>
+<p><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;"><strong>Dear ${request_for},</strong></span></p>
 <p><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;"><strong>The ${item_for} (${cmdb_ci}) is available for pick up at {depot}</strong></span></p>
 <p><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;"><strong>Your reservation is scheduled to being ${start_date}. please return the item to the same location you pick it up by ${end_date}.</strong></span></p>
 <p><span style="font-family: arial, helvetica, sans-serif; font-size: 12pt;"><strong>You will receive a return reminder 24 hours prior to its due date.</strong></span></p>]]></message_html>
@@ -60,7 +61,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>3166d959ccaf59107f4443da529421d5</sys_id>
-        <sys_mod_count>1</sys_mod_count>
+        <sys_mod_count>2</sys_mod_count>
         <sys_name>Loaner Item Pick Up</sys_name>
         <sys_overrides/>
         <sys_package display_value="Loaner Request" source="x_cdltd_loaner_req">d634751bcc9b91107f4443da529421b7</sys_package>
@@ -68,7 +69,7 @@
         <sys_scope display_value="Loaner Request">d634751bcc9b91107f4443da529421b7</sys_scope>
         <sys_update_name>sysevent_email_action_3166d959ccaf59107f4443da529421d5</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2022-12-02 19:13:16</sys_updated_on>
+        <sys_updated_on>2022-12-03 17:45:55</sys_updated_on>
         <sys_version>2</sys_version>
         <template display_value="Unsubscribe and Preferences">7ed0481f3b0b2200c869c2c703efc487</template>
         <type>email</type>
